@@ -1,0 +1,82 @@
+#navbar div img{
+    height: 5rem;
+    width:5rem
+}
+#menu ul{
+    display: flex;
+}
+#menu ul li a{
+
+    font-size: 1.2rem;
+    padding: 0.5rem 0.2rem;
+}
+
+#search input{
+    margin: 1.5rem 40px;
+    border-radius: 1rem;
+    border: 3px solid rgba(105, 105, 105, 0.171);
+    padding: 0rem 0.5rem;
+    width: 9rem;
+}
+#home1{
+    margin: 1.5rem;
+}
+#home1 h1{
+    font-size: 4rem;
+
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+#home1 p{
+    margin: 3rem 0;
+    text-align: center;
+    font-size: 1.8rem;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    font-weight: 800;
+    line-height: 2.5rem;
+
+}
+
+.cont div{
+    max-width: 40%;
+    font-size: 1rem;
+}
+.cont img{
+    max-width: 30%;
+    height: 30%;
+    font-size: 1.5rem;
+    border-radius: 1.2rem;
+    box-shadow: 0.3rem 0.3rem 0.9rem 0.5rem rgba(0, 0, 0, 0.521);
+}
+
+.img1{
+    height: 15rem;
+    width: 10rem;
+}
+
+#home2 a{
+    font-size: 0.7rem;
+    padding: 0.3rem;
+}
+
+#form div > h1{
+    font-size: 3rem;
+}
+#form1{
+    font-size: 1rem;
+}
+
+.button{
+    font-size: 0.8rem;
+}
+
+#phone{
+    font-size: 1rem;
+}
+#prog h1{
+    font-size:3rem;
+}
+#social{
+    text-align: right;
+}
