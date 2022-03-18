@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+    </style>
 </head>
 
-<body>
+<body id="abs">
     <header>
         <nav id="navbar">
             <div id="logo">
@@ -17,38 +22,48 @@
             </div>
             <div id="menu">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact us</li>
+                    <li><a href="#abs">Home</a> </li>
+                    <li><a href="#home2">About</a></li>
+                    <li><a href="#prog">Explore</a></li>
+                    <li><a href="#contact">Contact us</a></li>
                 </ul>
             </div>
             <div id="search">
-                <input type="text" placeholder="Search" style="height: 2rem; width: 16rem; padding: 0 1rem;">
+                <input type="text" placeholder="Search"
+                    style="height: 2rem; width: 16rem; padding: 0 1rem; border: 5px solid rgba(105, 105, 105, 0.171);">
             </div>
     </header>
 
     </nav>
-    <main>
+    <main id="home">
         <section id="home">
             <div id="home1">
                 <h1>Welcome to Fitness Center</h1>
-                <p>Enter the best Gym in Itanagar <br>and <br>achieve your dream body</p>
+                <p>Enter the best Gym in Itanagar <br> and <br>achieve your dream body</p>
             </div>
 
             <div id="home2">
                 <div id="musb" class="cont">
                     <div>
                         <h2>Want to grow muscles?</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad placeat cumque vero quibusdam
-                            error esse quae recusandae accusamus minus necessitatibus?</p>
+                        <br>
+                        <p>We have a variety of splits and exercises that will suit your routine and we have
+                            professional trainer who guide you throughout the journey! Join fast!</p>
+                        <br>
+                        <a href="#form">APPLY NOW!</a>
+                        <p></p>
                     </div>
                     <img src="img/weights1.jpg" alt="" style=" height: 20rem; width: 15rem;">
                 </div>
                 <div id="fatb" class="cont">
                     <div>
                         <h2>Want to lose those stubburn fat?</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam quo blanditiis sit eum
-                            nulla enim perspiciatis reprehenderit illo esse?</p>
+                        <br>
+                        <p>Loosing fat has became one of the important and hardest thing in one's life, Here in Fitness
+                            Center we will guide you through Different training to get that lean body your always dreamt
+                            of! So what are you waiting for? </p>
+                        <br>
+                        <a href="#form">APPLY NOW!</a>
                     </div>
                     <img src="img/stubfat.jpg" alt="" style=" height: 20rem; width: 15rem;">
                 </div>
@@ -73,7 +88,7 @@
 
                 <div class="list">
                     <h3>HIIT</h3>
-                    <img src="img/healthy lifestyle.jpg" alt="">
+                    <img src="img/healthy_lifestyle.jpg" alt="">
                 </div>
                 <div class="list">
                     <h3>Competitive</h3>
@@ -86,7 +101,7 @@
 
                 <h1>Join Us to Explore more . . .</h1>
             </div>
-            <form action="#" id="form1">Fill the Details below :
+            <form action="video.html" id="form1">Fill the Details below :
                 <label for="#">Name:</label>
                 <input type="text" placeholder="Full Name" id="name" class="hover1" minlength="2" max="30" required>
                 <label for="#">Email Address:</label>
@@ -100,15 +115,34 @@
                 <label for="#">If you have any Health related Issues, please Mention Below :</label>
                 <textarea name="prob" id="prob" class="hover2" cols="50" rows="8" required></textarea>
                 <!-- <button id="submit">Submit</button> -->
+
                 <input type="submit" class="button">
-                <input type="reset" class="button">
+                <input type="reset" class="button" id="reset">
 
             </form>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
         <!-- <h1>Thank you for visiting us!</h1> -->
         <h1>Contact Details:</h1>
+        <div id="contact1">
+            <div id="phone">
+                <h4>Mobile no. :</h4>
+                <p> &nbsp;&nbsp;&nbsp;+91-8449xxxxx</p>
+                <p> &nbsp;&nbsp;&nbsp;+91-7005xxxxx</p>
+                <h4>Email :</h4>
+                <p>&nbsp;&nbsp;&nbsp;Fitnesscenter@getfit.in</p>
+            </div>
+
+            <div id="social">
+                <h2>Social handles</h1>
+                    <div>
+                        <a href="https://www.instagram.com/darkhorse_2802/" class="fa fa-instagram" class="icon"></a>
+                        <a href="https://www.facebook.com/novaneel.mandal.1" class="fa fa-facebook" class="icon"></a>
+                        <a href="https://twitter.com/MandalNovaneel" class="fa fa-twitter" class="icon"></a>
+                    </div>
+            </div>
+        </div>
 
 
 
