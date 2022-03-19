@@ -1,4 +1,7 @@
 
+*{
+    scroll-behavior: smooth;
+}
 #navbar{
     position: sticky;
     flex-direction: column;
