@@ -11,7 +11,22 @@
 #home1{
     margin: 0.5rem;
 }
-
+#home1::before{
+    content : "";
+    background-image:url(img/back4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    /* background-color: violet; */
+    top: 0;
+    left: 0;
+    height: 40rem;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    }
 #menu ul{
     margin-left: 0;
     margin-top: -1rem;
@@ -25,7 +40,7 @@
 }
 #search input{
     width: 96vw;
-    height: 1.5rem;
+    height: 2rem;
     margin: 0;
     margin-top: 0.5rem;
 }
