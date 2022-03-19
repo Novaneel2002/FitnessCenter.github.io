@@ -84,6 +84,25 @@
     font-size: 1.5rem;
 
 }
+
+#prog::before{
+    content : "";
+    /* background-color: rgb(255, 255, 255); */
+    background-image:url(img/equipments2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    /* background-color: violet; */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    }
+
 .list{
     height: 15rem;
     width: 15rem;
