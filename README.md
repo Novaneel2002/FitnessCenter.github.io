@@ -4,7 +4,7 @@
 
 <h2>Features:</h2>
 <ul>
-    <li>proper page navigation</li>
-    <li>form submission</li>
-    <li>fully Responsive</li>
+    <li>Proper page navigation</li>
+    <li>Form submission</li>
+    <li>Fully Responsive</li>
 </ul>
